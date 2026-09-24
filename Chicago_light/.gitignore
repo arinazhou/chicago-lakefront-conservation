@@ -1,0 +1,16 @@
+cat > .gitignore <<'EOF'
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+.ipynb_checkpoints/
+.env
+.venv/
+
+# Large satellite imagery
+*.tif
+*.tif.ovr
+*.tif.aux.xml
+*.png.ovr
+EOF
