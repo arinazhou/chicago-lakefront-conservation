@@ -1,4 +1,3 @@
-cat > .gitignore <<'EOF'
 # macOS
 .DS_Store
 
@@ -13,4 +12,3 @@ __pycache__/
 *.tif.ovr
 *.tif.aux.xml
 *.png.ovr
-EOF
